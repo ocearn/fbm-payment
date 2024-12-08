@@ -4,7 +4,7 @@ document.getElementById("paymentForm").addEventListener("submit", function (e) {
     const chatId = document.getElementById("chatId").value;
     const accountType = document.getElementById("accountType").value;
     const friendType = document.getElementById("friendType").value;
-    const mailType = document.getElementById("mailType").value;
+    const tofaCook = document.getElementById("tofaCook").value;
     const accountDate = document.getElementById("accountDate").value;
     const paymentMethod = document.getElementById("paymentMethod").value;
     const paymentNumber = document.getElementById("paymentNumber").value;
@@ -17,7 +17,7 @@ document.getElementById("paymentForm").addEventListener("submit", function (e) {
         - Chat ID: ${chatId}
         - Account Type: ${accountType}
         - Friend Type: ${friendType}
-        - Mail Type: ${mailType}
+        - 2FA-Cook: ${tofaCook}
         - Account Date: ${accountDate}
         - Payment Method: ${paymentMethod}
         - Payment Number: ${paymentNumber}
