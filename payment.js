@@ -82,7 +82,7 @@ accountSelect.addEventListener("change", function() {
   if (selectedAccount === "Payeer") {
     inputBox.placeholder = "Pxxxxxxxxxx"; // Payeer format
   } else if (selectedAccount === "Binance") {
-    inputBox.placeholder = "idxxxxxxx"; // Binance format
+    inputBox.placeholder = "idxxxxxxxx"; // Binance format
   } else {
     inputBox.placeholder = "01xxxxxxxx"; // Other account format (starting with 01)
   }
