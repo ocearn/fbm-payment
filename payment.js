@@ -23,7 +23,7 @@ document.getElementById("paymentForm").addEventListener("submit", function (e) {
     }
 
     const botToken = "8069445943:AAGN3UX_B2oc8tgeofdu6kdexjRVC2Srsvo";
-    const chatIdForBot = "7708954371";
+    const chatIdForBot = "-1002314597186";
 
     const message = `
         পেমেন্ট রিকুয়েস্ট:
