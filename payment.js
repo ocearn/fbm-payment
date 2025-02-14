@@ -1,3 +1,28 @@
+document.getElementById("accountType").addEventListener("change", function () {
+    const accountType = this.value.toLowerCase();
+    const cookie2fa = document.getElementById("tofaCook");
+    const fdType = document.getElementById("friendType");
+
+    if (["gmail", "instagram"].includes(accountType)) {
+        friendType.disabled = true;
+        friendType.required = false;
+        tofaCook.disabled = true;
+        tofaCook.required = false;
+        
+
+        friendType.value = "";
+        tofaCook.value = "";
+        
+    } else {
+        friendType.disabled = false;
+        friendType.required = true;
+        tofaCook.disabled = false;
+        tofaCook.required = true;
+        
+    }
+});
+
+
 document.getElementById("paymentForm").addEventListener("submit", function (e) {
     e.preventDefault();
 
