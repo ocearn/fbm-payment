@@ -78,6 +78,9 @@ if (paymentMethod === "Binance") {
 } else if (paymentMethod === "Payeer") {
     paymentNumberLabel.textContent = "Payeer ID:";
     document.getElementById("paymentNumber").pattern = "P\\d{7,10}";
+} else if (paymentMethod === "Rocket") {
+    paymentNumberLabel.textContent = "Payment Number:";
+    document.getElementById("paymentNumber").pattern = "01[0-9]{9,10}";
 } else {
     paymentNumberLabel.textContent = "Payment Number:";
     document.getElementById("paymentNumber").pattern = "01[0-9]{9}";
